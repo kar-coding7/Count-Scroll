@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Count Scroll</string>
+    <string name="accessibility_service_description">Layanan Count Scroll hanya mendeteksi perpindahan konten (scroll) dan durasi pemakaian pada aplikasi video pendek yang dipantau agar jumlah scroll dan waktu buka dapat dihitung secara akurat tanpa membaca pesan atau data pribadi.</string>
+</resources>

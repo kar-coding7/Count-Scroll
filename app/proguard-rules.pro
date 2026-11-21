@@ -1,0 +1,3 @@
+-keep class com.kiru.countscroll.data.local.entity.** { *; }
+-keep class com.kiru.countscroll.data.local.dao.** { *; }
+-keep class com.kiru.countscroll.service.** { *; }
