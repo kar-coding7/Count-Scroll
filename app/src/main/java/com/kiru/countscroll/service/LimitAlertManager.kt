@@ -118,8 +118,7 @@ class LimitAlertManager(
             }
 
             val infoTv = TextView(context).apply {
-                text = "Kamu sudah mencapai ${status.currentScrolls} / ${status.effectiveDailyTarget} scroll hari ini.
-Tunda terpakai: ${status.snoozeCountToday}/${settings.maxDelayPerDay}x."
+                text = "Kamu sudah mencapai ${status.currentScrolls} / ${status.effectiveDailyTarget} scroll hari ini.\nTunda terpakai: ${status.snoozeCountToday}/${settings.maxDelayPerDay}x."
                 setTextColor(Color.parseColor("#D4D4D4"))
                 textSize = 14f
                 setPadding(0, 0, 0, 32)
